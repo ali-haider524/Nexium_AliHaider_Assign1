@@ -63,12 +63,12 @@ export default function Home() {
             Search
           </Button>
           <Button
-            variant="outline"
-            onClick={handleRandom}
-            className="border-indigo-600 text-indigo-600 hover:bg-indigo-50 dark:hover:bg-gray-700"
-          >
-            Random
-          </Button>
+  onClick={handleRandom}
+  className="border border-indigo-600 text-indigo-600 hover:bg-indigo-50 dark:hover:bg-gray-700 bg-transparent"
+>
+  Random
+</Button>
+
         </div>
            <div className="space-y-4 transition-all duration-300 animate-fadeIn">
           {results.length === 0 ? (
